@@ -1,0 +1,44 @@
+.filter_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.filter_box div input {
+  margin-right: 10px;
+}
+
+.filter_box div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter_box div:not(:last-child) {
+  margin-right: 10px;
+}
+
+.text {
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background-color: #fcb322;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: #161616;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}

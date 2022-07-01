@@ -1,0 +1,33 @@
+.container {
+  width: 900px;
+  height: 50px;
+
+  margin-bottom: 15px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo_text {
+  border-radius: 12px;
+  width: 600px;
+  padding: 11px 18px;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #000;
+  background-color: whitesmoke;
+  border: 1px solid red;
+}
+
+.completed {
+  text-decoration: line-through;
+  border: 1px solid green;
+}
+
+.todo_menu_container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
